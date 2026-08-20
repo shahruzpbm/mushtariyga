@@ -87,8 +87,8 @@ export default function FinaleScene({ onReplay }: { onReplay: () => void }) {
 
   const share = async () => {
     const payload = {
-      title: `${NAME_OF_DAY} — tug'ilgan kun salomnomasi`,
-      text: `${NAME_OF_DAY} uchun «Haqiqiy go'zallik» uslubidagi maxsus salomnoma — ${CHANNEL} tomonidan.`,
+      title: `${NAME_OF_DAY} — tug'ilgan kun tabrigi`,
+      text: `${NAME_OF_DAY} uchun «Als go'zallik» uslubidagi maxsus tabrik — ${CHANNEL} tomonidan.`,
       url: window.location.href,
     };
     try {
