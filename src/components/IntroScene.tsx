@@ -32,7 +32,7 @@ export default function IntroScene({ onStart }: { onStart: () => void }) {
         <div className="flex flex-col items-center">
           <motion.div variants={fadeUp} initial="hidden" animate="show" custom={0.45} className="mb-3 flex items-center gap-2 text-[#ffd9e8]">
             <Flower2 className="h-4 w-4" />
-            <span className="font-script text-2xl">«Haqiqiy go'zallik» uslubida</span>
+            <span className="font-script text-2xl">«Asl go'zallik» uslubida</span>
             <Flower2 className="h-4 w-4" />
           </motion.div>
 
